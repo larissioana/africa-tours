@@ -28,9 +28,7 @@ const NextAdventure=()=>{
                 }
             </div>
         <div className="container" id='activities'>
-       
-        
-        <img src={image} alt={title}/>
+       <img src={image} alt={title}/>
         <p>{info}</p>
         </div>
        

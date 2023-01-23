@@ -10,20 +10,7 @@ import styled from "styled-components";
 
 const SafariJungle=()=>{
     const[safariTours,setSafariTours]=useState(tours);
-    const removeTour=(id)=>{
-    const newTours=safariTours.filter((tour)=>tour.id !==id);
-    setSafariTours(newTours)
-    };
- 
-    if(safariTours.length===0){
-        return(
-            <NoTour className="no-tour">
-            <h2>No Tours Left.</h2>
-           
-            </NoTour>
-        )
-    }
-
+   
     return(
         <>
         <Wrapper id="safari" className="container">
@@ -50,7 +37,6 @@ const SafariJungle=()=>{
                  <p><b>{price}</b></p>
                  <p><b>Destinations:</b> {description}</p>
                  <p>{reviews}</p>
-                 <button onClick={()=>removeTour(id)}>Not Interested</button>
                  </div>
                 
             })}
@@ -61,20 +47,3 @@ const SafariJungle=()=>{
     )
 };
 export default SafariJungle;
- const NoTour=styled.div`
-    display:grid;
-    place-items: center;
-    margin-bottom:5rem;
-    button{
-        padding:1rem 2rem;
-        background:#c06d6d;
-        border:1px solid #f1ecec;
-        color:#f1ecec;
-        text-transform: uppercase;
-        letter-spacing:  .1rem;
-        cursor:pointer;
-    }
-    h2{
-        margin-bottom:2rem;
-    }
- `

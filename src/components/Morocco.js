@@ -9,11 +9,6 @@ import {useState} from 'react';
 
 const Morocco=()=>{
     const [moroccoTours,setMoroccoTours]=useState(toursMorroco);
-    const removeTour=(id)=>{
-        const newTours=moroccoTours.filter((tour)=> tour.id !==id);
-        setMoroccoTours(newTours);
-    }
-    
     return(
         <div id="morocco">
         <Wrapper className="container">
@@ -37,7 +32,6 @@ const Morocco=()=>{
                  <p>{price}</p>
                  <p><b>Destinations:</b> {description}</p>
                  <p>{reviews}</p>
-                 <button onClick={()=>removeTour(id)}>Not Interested</button>
                  </div>
                 
             })}

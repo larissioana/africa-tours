@@ -2,7 +2,7 @@ import image from './images/reviews.jpg';
 import image1 from './images/reviews1.jpg';
 import image2 from './images/reviews2.jpg';
 import image3 from './images/reviews3.jpg';
-import image4 from './images/reviews4.jpg';
+
 
 
 
