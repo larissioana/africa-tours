@@ -5,12 +5,13 @@ import {BsSuitHeartFill} from 'react-icons/bs';
 //Styles
 import { Wrapper } from "../styles";
 import {useState} from 'react';
-
+import styled from "styled-components";
 
 const Morocco=()=>{
     const [moroccoTours,setMoroccoTours]=useState(toursMorroco);
     return(
         <div id="morocco">
+        <h2 className="title">{moroccoTours.length} incredibile moroccan experiences.</h2>
         <Wrapper className="container">
             {moroccoTours.map(tour=>{
                 const{id,
@@ -40,3 +41,5 @@ const Morocco=()=>{
     )
 };
 export default Morocco;
+
+

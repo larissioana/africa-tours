@@ -13,8 +13,9 @@ const SafariJungle=()=>{
    
     return(
         <>
+        <Title>{tours.length} best jungle safari experiences.</Title>
         <Wrapper id="safari" className="container">
-        
+        <Safari>
         {safariTours.map(tour=>{
                 const{id,
                     image,
@@ -40,6 +41,7 @@ const SafariJungle=()=>{
                  </div>
                 
             })}
+            </Safari>
         </Wrapper>
       
         </>
@@ -47,3 +49,16 @@ const SafariJungle=()=>{
     )
 };
 export default SafariJungle;
+
+const Safari=styled(Wrapper)`
+    .tours{
+        margin-top:13rem;
+       
+    }
+`
+const Title=styled.h2`
+  text-align:center;
+  padding-top:2rem;
+  font-size:clamp(1.7rem,2vw,2.4rem);
+  font-family:"Anton",sans-serif;
+`

@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Destinations from "./components/Destinations";
-import Tours from "./components/Tours";
+import ToursSection from "./components/ToursSection";
 import NextAdventure from "./components/NextAdventure";
 import Reviews from "./components/Reviews";
 import Contact from './components/Contact';
@@ -19,7 +19,7 @@ function App() {
       <Home/>
       <About/>
       <Destinations/>
-      <Tours/>
+      <ToursSection/>
       <NextAdventure/>
       <Reviews/>
       <Contact/>

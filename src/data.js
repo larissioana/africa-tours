@@ -27,24 +27,26 @@ import {IoLocationSharp} from 'react-icons/io5';
 import {GiElephant} from 'react-icons/gi';
 import {GrMapLocation} from 'react-icons/gr';
 import {RiStarSFill} from 'react-icons/ri';
-import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs';
+import {BsFacebook,BsInstagram,BsGithub} from 'react-icons/bs';
+
 
 export const socialLinks=[
   {
     id:1,
+    href:'https://github.com/larissioana/africa-tours.git',
+    icon:<BsGithub/>
+    },
+    {
+    id:2,
     href:'https://www.facebook.com',
     icon:<BsFacebook/>
-  },
+    },
   {
-    id:2,
+    id:3,
     href:'https://www.instagram.com',
     icon:<BsInstagram/>
   },
-  {
-    id:3,
-    href:'https://www.twitter.com',
-    icon:<BsTwitter/>
-  },
+ 
 ];
 
 
