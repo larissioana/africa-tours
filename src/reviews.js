@@ -12,31 +12,25 @@ export const reviews=[
      id:1,
      image:image,
      name:'Robert Miller',
-     info:'Faucibus nullam quam laoreet lacinia curae; ornare augue.'
+     info:'Thank you to Africa Tours for exceeding our expectations of Morocco destination.'
     },
     {
         id:2,
         image:image1,
         name:'Anton Jeffrey',
-        info:'Faucibus nullam quam laoreet lacinia curae; ornare augue lobortis velit. Phasellus habitant habitasse praesent sodales phasellus, hendrerit tellus taciti penatibus lorem mattis mollis. Tortor potenti ullamcorper primis? Non porta montes rutrum primis mi eleifend duis ultrices vivamus lobortis sed volutpat. Per non mauris congue venenatis primis.'
+        info:'A memorable trip from start to finish. '
        },
        {
         id:3,
         image:image2,
         name:'Tina Smith',
-        info:'Faucibus nullam quam laoreet lacinia curae; ornare augue lobortis velit. Phasellus habitant habitasse praesent sodales phasellus, hendrerit tellus taciti penatibus lorem mattis mollis. Tortor potenti ullamcorper primis? Non porta montes rutrum primis mi eleifend duis ultrices vivamus lobortis sed volutpat.'
+        info:'What an amazing experience and one we will never forget.'
        },
        {
         id:4,
         image:image3,
         name:'Sarah Dobre',
-        info:'Faucibus nullam quam laoreet lacinia curae; ornare augue lobortis velit. Phasellus habitant habitasse praesent sodales phasellus, hendrerit tellus taciti penatibus lorem mattis mollis. Tortor potenti ullamcorper primis? Non porta montes rutrum primis mi eleifend duis ultrices vivamus lobortis sed volutpat.'
+        info:'We had the best time in Kenya. The tour kept being changed and delayed because of covid but in the end everything has been perfect.'
        },
-    //    {
-    //     id:5,
-    //     image:image4,
-    //     name:'Katerina Mac',
-    //     info:'Faucibus nullam quam laoreet lacinia curae.'
-    //    },
 
 ]
