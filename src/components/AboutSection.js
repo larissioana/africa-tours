@@ -1,21 +1,17 @@
 //Data
 import { AboutSectionOne } from "../data";
-import { useState } from "react";
 //Styles
 import styled from "styled-components";
 
 
 const AboutSection=()=>{
-    const[showMore,setShowMore]=useState(false);
-    const text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa sed elementum tempus. Malesuada fames ac turpis egestas maecenas pharetra. Cursus eget nunc scelerisque viverra mauris in. Ultricies integer quis auctor elit sed vulputate. Odio ut enim blandit volutpat maecenas volutpat. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Orci eu lobortis elementum nibh tellus molestie nunc non. Non blandit massa enim nec dui nunc mattis enim ut.';
+  
+    const text='The world we live in is full of surprises, and one life often seems insufficient to mark on the map everything we want. If your heart beats in a holiday rhythm and you live for adventure, you are in the right place. Opt for an exotic tour circuit and visit the most spectacular tourist destinations around the world. Tanzania, Kenya, Morocco, Sahara desert are just some of the destinations where you will spend unique, unforgettable moments! Regardless of your choice, we guarantee that you will not regret the experience for a second. Arm yourself with energy and the desire for vacation and live to the fullest every moment spent in an exotic circuit.';
     return(
         <Wrapper id='about'>
          <div className="about-desc">
             <h1>Find your freedom this summer in the wild life &<br/> in the Sahara Desert</h1>
-           <p>
-            {`${showMore? text: text.substring(0,50)}`}
-            {text}</p>
-           <button onClick={()=>setShowMore(!showMore)}>{showMore? 'Less':'More'}</button>
+           <p>{text}</p>
            </div>
            <h1>The Africa Experience</h1>
            <div className="container">
