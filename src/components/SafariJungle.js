@@ -25,7 +25,6 @@ const SafariJungle=()=>{
                     price,
                     location,wishlist}=tour;
                 return<div className="tours" key={id}>
-                 
                     <div className="img-tours">
                     </div>
                  <img src={image} alt={title}/>
@@ -51,10 +50,10 @@ const SafariJungle=()=>{
 export default SafariJungle;
 
 const Safari=styled(Wrapper)`
+  column-gap:7rem;
     .tours{
         margin-top:13rem;
-       
-    }
+      }
 `
 const Title=styled.h2`
   text-align:center;

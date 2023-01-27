@@ -19,7 +19,6 @@ export const GlobalStyle=createGlobalStyle`
     }
     a{
         text-decoration: none;
-        /* color:#e2dfdf; */
         font-family: 'Raleway', sans-serif;
     }
     h2,h3,p,h1{

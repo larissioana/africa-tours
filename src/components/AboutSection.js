@@ -35,8 +35,7 @@ const AboutSection=()=>{
 export default AboutSection;
 const Wrapper=styled.div`
     margin:2rem auto 10rem auto;
-  
-    .about-desc{
+   .about-desc{
     padding:0rem 1rem;
     display:grid;
     place-items:center;
@@ -103,14 +102,11 @@ const Wrapper=styled.div`
             font-size:clamp(.9rem,2vw,1.1rem);
             text-align: center;
             margin-right:1rem;
-           
-        }
     }
-    
+    }
     }
 
-    
-    @media (max-width:500px){
+     @media (max-width:500px){
         margin-top:8rem;
         img{
             width:19rem;
@@ -118,6 +114,6 @@ const Wrapper=styled.div`
         button{
             right:5rem;
         }
-    }
+     }
 
 `
