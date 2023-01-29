@@ -19,8 +19,7 @@ const Footer=()=>{
                 </ul>
                 </div>
             })}
-            
-         </footer>
+          </footer>
          <div className="social-links">
          {socialLinks.map(link=>{
                 const{id,href,icon}=link;

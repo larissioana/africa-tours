@@ -25,7 +25,6 @@ const Wrapper=styled.div`
     height:100vh;
     object-fit: cover;
  
-   
- }
+}
 
 `;

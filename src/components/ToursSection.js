@@ -31,7 +31,7 @@ const Container=styled.div`
   ),
   url(${image});
   background-size:100%,cover;
-  height:110vh;
+  height:50rem;
   background-repeat: no-repeat;
 `;
 

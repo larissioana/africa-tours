@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const NextAdventure=()=>{
     const[value,setValue]=useState(1);
-    const{id,image,title,info}=adventure[value];
+    const{image,title,info}=adventure[value];
 
     return(
        <>
@@ -16,7 +16,6 @@ const NextAdventure=()=>{
             </h3>
        </Title>
         <Wrapper>
-     
         <div className="btn-container">
                 {
                     adventure.map((item,index)=>{
@@ -110,6 +109,9 @@ const Wrapper=styled.div`
               
                 
             }
+        }
+        .title-btn{
+            color:#17181a;
         }
          @media (max-width:475px){
          

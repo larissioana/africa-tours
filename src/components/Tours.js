@@ -30,7 +30,7 @@ export default Tours;
   ),
   url(${image});
   background-size:100%,cover;
-  height:107vh;
+  height:50rem;
   background-repeat: no-repeat;
      h1{
     font-family: "Anton",sans-serif;

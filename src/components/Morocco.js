@@ -5,7 +5,7 @@ import {BsSuitHeartFill} from 'react-icons/bs';
 //Styles
 import { Wrapper } from "../styles";
 import {useState} from 'react';
-import styled from "styled-components";
+
 
 const Morocco=()=>{
     const [moroccoTours,setMoroccoTours]=useState(toursMorroco);

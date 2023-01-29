@@ -3,14 +3,15 @@ import styled from "styled-components"
 export const Wrapper=styled.div`
     margin:0rem auto 2rem auto;
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
     grid-auto-flow: column;
-    grid-auto-columns: 25rem;
+    grid-auto-columns: 23rem;
     overflow-x: auto;
     scroll-behavior: smooth;
     overscroll-behavior-inline: contain;
     scrollbar-color: rgba(224, 224, 223,.8) rgba(122, 81, 84,.4);
     scrollbar-width:thin;
+    height:auto;
   
 .tours{
     min-width:20%;

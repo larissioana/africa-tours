@@ -43,9 +43,6 @@ useEffect(()=>{
             <h2>Sahara Desert</h2>
             </div>
             </div>
-               
-           
-         
         </Wrapper>
     )
 };
@@ -69,18 +66,11 @@ const Wrapper=styled.div`
      flex-wrap: wrap;
      gap:2rem;
     .destinations-container{
-     
-       
-    
         h2{
         text-align: center;
         font-size:clamp(.9rem,2vw,1rem);
         margin-top:1rem;
-       
         letter-spacing:  .1rem;
-        
-       
-       
     }
         img{
             border-radius:.5rem;
@@ -88,7 +78,6 @@ const Wrapper=styled.div`
             height:20rem;
             object-fit: cover;
         
-          
         }
     }
    
@@ -107,11 +96,7 @@ const Wrapper=styled.div`
            h2{
             margin-bottom:1rem;
            }
-          
-        }
+         }
         
     }
- 
-
-
-`
+ `
